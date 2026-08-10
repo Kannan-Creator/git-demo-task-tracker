@@ -76,6 +76,15 @@ h1 {
   list-style: none;
 }
 
+#taskList:empty::after {
+  content: "No tasks yet — add one above!";
+  display: block;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
 #taskList li {
   display: flex;
   justify-content: space-between;
