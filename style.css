@@ -72,6 +72,14 @@ h1 {
   background: #574fd6;
 }
 
+#addTaskBtn:active {
+  transform: scale(0.97);
+}
+
+.delete-btn:active {
+  transform: scale(0.95);
+}
+
 #taskList {
   list-style: none;
 }
